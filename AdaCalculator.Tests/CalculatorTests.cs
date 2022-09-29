@@ -28,7 +28,7 @@ namespace AdaCalculator.Tests
         }
 
         [Fact]
-        public void Calculate_DivisionByZero_ShouldThrowArgumentException()
+        public void Calculate_DivisionByZero_ShouldReturnInfinite()
         {
             var expected = ("divide", double.PositiveInfinity);
             var sut = new Calculator();
@@ -37,7 +37,5 @@ namespace AdaCalculator.Tests
 
             result.Should().BeEquivalentTo(expected);
         }
-
-
     }
 }
