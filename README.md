@@ -13,7 +13,6 @@ Tarefas:
 2 - Adicionar o projeto de teste, sugestão de nome "AdaCalculatorTest";
 
 3 - Criar os testes das operações de adição, subtração, divisão e multiplicação; 
-Por exemplo: null, “”, “1,”, “1,2”'
 
 > Professor Michel Tadeu<br>
 > https://github.com/michaelTadeu
