@@ -22,6 +22,7 @@
                     break;
                 default:
                     c = a + b;
+                    operation = "sum";
                     break;
             }
             resultOperation = (operation, c);

@@ -37,5 +37,16 @@ namespace AdaCalculator.Tests
 
             result.Should().BeEquivalentTo(expected);
         }
+
+        [Fact]
+        public void Calculate_DefaultOperation_ShouldReturnSumValueAndOperation()
+        {
+            var expected = ("sum", 5);
+            var sut = new Calculator();
+
+            var result = sut.Calculate("", 3, 2);
+
+            result.Should().BeEquivalentTo(expected);
+        }
     }
 }
